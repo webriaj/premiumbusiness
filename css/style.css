@@ -1,0 +1,459 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.topbar{
+    background: #E5EEF0;
+    
+}
+p {
+    font-size: 15px;
+    font-family: 'Karla';
+    color: #93A1A7;
+    
+}
+.num {
+    padding-top: 13px;
+    padding-bottom: 11px;
+}
+
+i.fas.fa-mobile-alt.pr-2 {
+    padding: 13px 0px;
+}
+.border-right {
+    border-right: 1px solid #93A1A7!important;
+}
+.topbtn {
+    background: #29C2E1;
+    border-radius: 22px;
+    color: white!important;
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+    transition: 0.3s;
+}
+
+        /*----------FooterBtn---------*/
+.footbtn {
+    background: orange;
+    border-radius: 22px;
+    color: white!important;
+    transition: 0.3s;
+    padding: 12px 20px 11px;
+    font-family: 'Karla';
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 14.5px
+}
+
+.footbtn:hover{
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid orange;
+    color: orange!important;
+}
+.footbtntwo {
+        font-size: 14.5px;
+    background: #29C2E1;
+    border-radius: 22px;
+    color: white!important;
+    padding: 12px 34px 11px;
+    font-family: 'Karla';
+    font-weight: 300;
+    text-transform: capitalize;
+    transition: 0.3s;
+    letter-spacing: 1px;
+}
+.footbtntwo:hover{
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid #29C2E1;
+    color: #29C2E1!important;
+}
+
+        /*----------FooterBtn---------*/
+
+.topbtn:hover{
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid #29C2E1;
+    border-radius: 22px;
+    color:#29C2E1!important;
+}
+li.nav-item {
+    padding: 0px 5px;
+}
+li.sliderindicator {
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+    background: transparent;
+    border: 1px solid white;
+}
+.sliderTitle{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: Raleway;
+    font-weight: 700;
+}
+.sliderDescription {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+}
+.a.nav-link {
+    font-family: 'Karla';
+    text-transform: uppercase;
+}
+
+/*------------SecondSection-*/
+.sectiontitle {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 30px;
+    color: #23282F;
+}
+
+.sectionsubtitle{
+    font-family: 'Karla';
+    font-weight: 300;
+    font-size: 16px;
+    color: #23282F;
+}
+.sectionDes {
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 22px;
+    color: #55595F;
+}
+i.fas.fa-chart-bar {
+    background: #F7941D;
+    padding: 12px 12px;
+    font-size: 40px;
+    color: white;
+}
+.iconList {
+    background: #E5EEF0;
+    padding: 14px 16px;
+    font-size: 40px;
+    color: #4c4c4c;
+}
+h2.contentTitle {
+    font-size: 22px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.content{
+    width: 80%;
+}
+.Icon{
+    width: 20%;
+}
+.serviceBox{
+    overflow: hidden;
+}
+.serviceBtn {
+    background: #29C2E1;
+    border-radius: 22px;
+    color: white!important;
+    padding: 8px 20px 10px;
+    font-family: 'Karla';
+    font-weight: 300;
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+.serviceBtn:hover{
+    text-decoration: none;
+    background: transparent;
+    border: 1px solid #29C2E1;
+    border-radius: 22px;
+    color:#29C2E1!important;
+}
+/*----------Testimonial-----------------*/
+.testimonial{
+    overflow: hidden;
+    background: #e5eef0;
+}
+i.fa.fa-quote-left.float-left {
+    width: 14%;
+    font-size: 50px;
+}
+
+.text.float-right {
+    width: 86%;
+}
+.clienttext {
+    font-family: lora;
+    font-style: italic;
+    font-size: 15px;
+    color: #55595f;
+}
+.text h3 {
+    font-size: 14px;
+    font-family: 'Karla';
+    color: #55595f;
+}
+img.client-img {
+    width: 80px;
+    border-radius: 100%;
+}
+li.slick-active {
+    display: none;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background:#29c2e1;
+}
+/*--------------Feature------*/
+i.fas.fa-users {
+    font-size: 33px;
+    padding-bottom: 19px;
+    padding-top: 19px;
+}
+i.far.fa-handshake {
+    font-size: 35px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+i.fas.fa-server {
+    background: #f7941d;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.frst-shape{
+    width: 144px;
+    height: 117px;
+    background: #F69B37;
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    position: absolute;
+    left: 81%;
+}
+.Second-Shape{
+    width: 105px;
+    height: 79px;
+    background: #29C2E1;
+    clip-path: polygon(50% 0, 0% 100%, 100% 100%);
+    position: relative;
+    bottom: -38px;
+    right: 9%;
+}
+.Border {
+    border-bottom: 1px solid #c7c7c7;
+    margin-top: 37px;
+}
+
+/*-----------------------pricing---*/
+.pricing{
+    overflow: hidden;
+}
+.SinglePrice.text-center {
+    background: white;
+    border: 1px solid #e6edee;
+}
+
+h2.price-Title {
+    font-size: 18px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #23282F;
+    border-bottom: 1px solid #e6edee;
+}
+
+.Price-Subtitle {
+    font-size: 15px;
+    font-family: 'Raleway';
+    font-weight: 600;
+    color: #65686e;
+    border-bottom: 1px solid #e6edee;
+}
+
+.dollar {
+    color: #f7941d;
+    font-size: 18px;
+    padding: 0px 6px;
+}
+.priceContent{
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #55595f;
+}
+.recomend{
+    position: absolute;
+    background: orange;
+    top: 23px;
+    transform: rotate(312deg);
+    left: -19px;
+    clip-path: polygon(26% 0, 79% 0, 100% 100%, 0% 100%);
+}
+.markPrice{
+    position: relative;
+}
+.topBadge {
+    font-size: 13PX;
+    font-family: : 'Karla';
+    color: white;
+    padding: 9px 25px 0px;
+}
+.markPrice {
+    box-shadow: 0px 0px 7px 0px #b5afaf;
+}
+.price-Title:after {
+    content: " ";
+    display: block;
+    background: #f99500;
+    width: 15%;
+    height: 1px;
+    position: absolute;
+    margin-top: 4px;
+    left: 32%;
+}
+.golD:after{
+    content: " ";
+    display: block;
+    background: #f99500;
+    width: 15%;
+    height: 1px;
+    position: absolute;
+    margin-top: 4px;
+    left: 42%;
+}
+.ulTimate:after{
+    content: " ";
+    display: block;
+    background: #f99500;
+    width: 15%;
+    height: 1px;
+    position: absolute;
+    margin-top: 4px;
+    left: 35%;
+}
+
+/*----------OurTeam----------*/
+
+.Our_team{
+    background: #e5eef0;
+}
+h2.Team-Name {
+    font-size: 16px;
+    font-family: 'Karla';
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #23282f;
+}
+p.Team-position {
+    font-family: 'Karla';
+    font-size: 15px;
+    color: #f69b37;
+    font-weight: 500;
+}
+.TeamDetails{
+    background: white;
+}
+.teamPic {
+    border: 1px solid #8d8d8d;
+}
+.Team-Icon a{
+    color: #adbdc1;
+    font-size: 18px;
+}
+
+
+/*-----Footrer------*/
+.topPart h2 {
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: #23282f;
+}
+.topPart h2 span{
+    color: orange;
+}
+
+.topPart p {
+    color: #59686c;
+    font-size: 13px;
+    font-family: 'Raleway';
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.topPart{
+    border-bottom: 1px solid #e5eef0;
+}
+.mainfooter{
+    border-bottom: 1px solid #e5eef0;
+}
+
+.footermenu li a {
+    color: #93a1a7;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Karla';
+    font-weight: 300;
+}
+.footermenu li{
+    line-height: 30px;
+}
+.footermenutwo{
+    margin-top: 30px!important;
+}
+.footTitle {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 600;
+    color: #23282f;
+}
+input[type="email"] {
+    font-family: 'Karla';
+    font-weight: 300;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 7px 15px 7px;
+    color: #93a1a7;
+    border: 1px solid #93a1a7;
+}
+
+input[type="submit"] {
+    font-size: 15px;
+    font-family: robotoSlab;
+    font-weight: 300;
+    border: none;
+    padding: 5px 8px 7px;
+    background: #29c2e1;
+    color: white;
+    position: absolute;
+}
+span.footcontent {
+    color: #3e4146;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+p.footP {
+    font-size: 14px;
+    color: #93a1a7;
+    text-transform: uppercase;
+}
+.foot-Shapeone {
+        width: 191px;
+    height: 145px;
+    position: absolute;
+    background: #f69b37;
+    clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+    right: 0px;
+    margin-top: -129px;
+}
+.foot-Shapetwo{
+    width: 220px;
+    height: 110px;
+    background: #29c2e1;
+    position:absolute;
+    clip-path: polygon(0 0, 0% 100%, 100% 100%);
+    left: 0px;
+    margin-top: -155px;
+}
